@@ -36,7 +36,8 @@ public class Main {
     }
 
     /*
-    * TASK 2 - intersection() prints all unique numbers (each number just once) from arr1 and arr2 on std output each on new line and on the next line it prints intersection of these sets(numbers that are in both arrays)
+    * TASK 2 - intersection() prints all unique numbers (each number just once) from arr1 and arr2 on std output each set on new line and on the third line it prints intersection of these sets(numbers that are in both arrays)
+    *
     * use Set
     * */
 
@@ -48,7 +49,7 @@ public class Main {
     }
 
     /*
-    * TASK 3 - finish mySort(). It returns given array of integers ordered. You may not create new variables. You may not use Array.sort() function.
+    * TASK 3 - finish mySort(). It returns given array of integers ordered. You may not create new variables. You may not use Array.sort() function. Dont google sort algorithms.
     * */
 
     public int[] mySort (int [] original){
@@ -60,8 +61,8 @@ public class Main {
     }
 
     /*
-    * TASK 4 - finish variations () in such a way that it returns structure that has all possible variations of strings a,b and c in it. (['a','a','a'], ['a','a','b'], ... ['c','c','c'])
-    * */
+     * TASK 4 - finish variations () in such a way that it returns structure that has all possible variations of chars in abc ( a,b and c) in it. solution :([['a','a','a'], ['a','a','b'], ... ['c','c','c']])
+     * */
     private String a = "a";
     private String b = "b";
     private String c = "c";
@@ -114,6 +115,7 @@ public class Main {
                 ret.add(alpha == list1.get(alpha));
             }
             omg++;
+            //if ret on omg position is false set it to true
             if(ret[1].equals(false)){
                 ret.get(omg) = true;
             }
