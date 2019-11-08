@@ -63,13 +63,20 @@ public class Main {
     /*
      * TASK 4 - finish variations () in such a way that it returns structure that has all possible variations of chars in abc ( a,b and c) in it. solution :([['a','a','a'], ['a','a','b'], ... ['c','c','c']])
      * */
-    private String a = "a";
-    private String b = "b";
-    private String c = "c";
-
+    private Character[] abc = {'a','b','c'};
     public List<List<Character>> variations (){
         List<List<Character>> result = new ArrayList<List<Character>>();
-        //TODO
+
+        for(char x : abc){
+            for(char y : abc){
+                for(char z : abc){
+                    result.add(new Character[]{x,y,z})
+                }
+            }
+        }
+
+
+
         return result;
     }
 
@@ -124,7 +131,8 @@ public class Main {
     }
 */
     public static void main(String[] args) {
-	    printSmth(foo);
+        System.out.println(variations());
+	    //printSmth(foo);
 	    //wheresMyMistake();
     }
 }
