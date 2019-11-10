@@ -12,7 +12,7 @@ public class Numbers {
      * @return Digit
      */
     public Digit one(){
-        //TODO create number two using method "Zero" (you are not allowed to use Digit.Zero())
+        //TODO create number two using method "zero" (you are not allowed to use Digit.Zero())
         throw new RuntimeException("Not implemented yet");
     }
 
@@ -22,7 +22,7 @@ public class Numbers {
      */
     public Digit two(){
 
-        //TODO create number two using method "One" (you are not allowed to use Digit.Zero())
+        //TODO create number two using method "zne" (you are not allowed to use Digit.Zero())
         throw new RuntimeException("Not implemented yet");
     }
 

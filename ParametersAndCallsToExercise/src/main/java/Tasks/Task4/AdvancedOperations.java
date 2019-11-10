@@ -4,8 +4,11 @@ import Numbers.Digit;
 import Tasks.Task2.ExtendedOperations;
 
 /**
- * Advanced operations for digits
- * Remembers number that is working with.
+ * Advanced operations for digits.
+ * Remembers number when instance of this class created and is working with.
+ * usage:
+ *  Numbers n = new Numbers();
+ *  Digit fifteen = new AdvancedOperations(n.one).plus(n.two).multiply(n.five).getResult();
  */
 public class AdvancedOperations {
     private Digit digit;
