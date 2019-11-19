@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ConstructorsAndOverloadingToExercise" />
         <module name="ConstructorsAndOverloadingSolution" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ConstructorsAndOverloadingSolution" target="1.8" />
+      <module name="ConstructorsAndOverloadingToExercise" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
