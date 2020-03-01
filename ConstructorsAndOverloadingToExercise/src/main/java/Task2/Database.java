@@ -109,7 +109,7 @@ public class Database {
     }
 
     /**
-     * Check if id exists, if yes, replace person with that id, otherwise does nothing
+     * Check if id exists, if yes and person is not already in DB, replace person with that id, otherwise does nothing
      * @param id id to be found
      * @param person to be replaced with
      * @return true if person replaced, false otherwise
